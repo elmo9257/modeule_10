@@ -211,9 +211,19 @@ const init = () => {
         createIntern();
         break;
       default:
-        console.log("You made it!!!");
+        buildTeam();
       // Build our team!
     }
+  };
+
+  const buildTeam = () => {
+    const distDirectory = path.resolve(__dirname, "dist");
+    const teamHtmlPath = path.join(distDirectory, "team.html");
+    if (!fs.existsSync(distDirectory)) {
+      fs.mkdirSync(distDirectory);
+    }
+
+    fs.writeFileSync(distPath, render(teamMembers), "utf-8");
   };
 
   createManager();
