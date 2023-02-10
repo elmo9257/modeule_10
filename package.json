@@ -1,0 +1,22 @@
+{
+  "name": "modeule_10",
+  "version": "1.0.0",
+  "description": "MIT License",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elmo9257/modeule_10.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elmo9257/modeule_10/issues"
+  },
+  "homepage": "https://github.com/elmo9257/modeule_10#readme",
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  }
+}
